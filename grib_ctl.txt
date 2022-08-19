@@ -1,0 +1,72 @@
+dset ^GPOSNMC20170906122017090618P.fct.TQ0666L064.grb
+*
+index ^GPOSNMC20170906122017090618P.fct.TQ0666L064.idx
+*
+title PRESSURE HISTORY    PTEC AGCM REVIS 1.0 2000  T066664   COLD
+*
+dtype grib   255
+*
+options yrev
+*
+xdef  2000 linear  0.0  0.18
+ydef  1000 linear  -90.0  0.18
+tdef  1 linear  18Z06SEP2017  6hr  ['18Z06SEP2017  6hr']
+*
+zdef  33 levels [1020, 1000, 975, 950, 925, 900, 875, 850, 825, 800, 775, 750, 725, 700, 675, 650, 600, 550, 500, 450, 400, 350, 300, 250, 200, 150, 100, 70, 50, 30, 20, 10, 3]
+
+vars    65
+TOPO  1  132,  LTYPE,  0  **    Topography    (m)
+LSMK  1  81,  LTYPE,  0  **    Land sea mask    ((0 - 1))
+PSLC  1  135,  LTYPE,  0  **    Surface pressure    (hPa)
+UVES  1  192,  LTYPE,  0  **    Surface zonal wind (u)    (m s**-1)
+UVEL  33  33,  LTYPE,  0  **    Zonal wind (u)    (m s**-1)
+VVES  1  194,  LTYPE,  0  **    Surface meridional wind (v)    (m s**-1)
+VVEL  33  34,  LTYPE,  0  **    Meridional wind (v)    (m s**-1)
+OMEG  33  39,  LTYPE,  0  **    Omega    (Pa s**-1)
+VORT  33  43,  LTYPE,  0  **    Vorticity    (s**-1)
+FCOR  33  35,  LTYPE,  0  **    Stream function    (m**2 s**-1)
+POTV  33  36,  LTYPE,  0  **    Velocity potential    (m**2 s**-1)
+ZGEO  33  7,  LTYPE,  0  **    Geopotential height    (gpm)
+PSNM  1  2,  LTYPE,  0  **    Pressure reduced to msl    (hPa)
+TEMS  1  188,  LTYPE,  0  **    Surface absolute temperature    (K)
+TEMP  33  11,  LTYPE,  0  **    Absolute temperature    (K)
+UMRS  1  226,  LTYPE,  0  **    Surface relative humidity    (~)
+UMRL  33  52,  LTYPE,  0  **    Relative humidity    (~)
+UMES  33  51,  LTYPE,  0  **    Specific humidity    (kg kg**-1)
+AGPL  1  54,  LTYPE,  0  **    Inst. precipitable water    (kg m**-2)
+TSFC  1  187,  LTYPE,  0  **    Surface temperature    (K)
+DSTP  1  85,  LTYPE,  0  **    Deep soil temperature    (K)
+USSL  1  182,  LTYPE,  0  **    Soil wetness of surface    ((0 - 1))
+UZRS  1  183,  LTYPE,  0  **    Soil wetness of root zone    ((0 - 1))
+UZDS  1  184,  LTYPE,  0  **    Soil wetness of drainage zone    ((0 - 1))
+TP2M  1  128,  LTYPE,  2  **    2 metre temperature    (K)
+UNKNOWN  6  199,  LTYPE,  0  **    unknown    (unknown)
+FDLU  1  155,  LTYPE,  2  **    Flight levels u-wind    (m s**-1)
+AMDL  33  185,  LTYPE,  0  **    Storage on canopy    (m)
+AMSL  33  186,  LTYPE,  0  **    Storage on ground    (m)
+BSLH  33  176,  LTYPE,  0  **    Bare soil latent heat    (Ws m**-2)
+TMMT  1  251,  LTYPE,  0  **    Time mean surface temperature    (K)
+PREC  1  61,  LTYPE,  0  **    Total precipitation    (kg m**-2/day)
+PRCV  1  63,  LTYPE,  0  **    Convective precipitation    (kg m**-2/day)
+NEVE  1  64,  LTYPE,  0  **    Snowfall    (kg m**-2/day)
+CSSF  1  122,  LTYPE,  0  **    Sensible heat flux from surface    (W m**-2)
+CLSF  1  121,  LTYPE,  0  **    Latent heat flux from surface    (W m**-2)
+USST  1  193,  LTYPE,  0  **    Surface zonal wind stress    (Pa)
+VSST  1  195,  LTYPE,  0  **    Surface meridional wind stress    (Pa)
+CBNV  1  71,  LTYPE,  0  **    Cloud cover    ((0 - 1))
+OLIS  1  207,  LTYPE,  0  **    Downward long wave at bottom    (W m**-2)
+OLES  1  211,  LTYPE,  0  **    Upward long wave at bottom    (W m**-2)
+ROLE  1  114,  LTYPE,  0  **    Outgoing long wave at top    (W m**-2)
+OCIS  1  209,  LTYPE,  0  **    Downward short wave at ground    (W m**-2)
+OCES  1  212,  LTYPE,  0  **    Upward short wave at ground    (W m**-2)
+ROCE  1  214,  LTYPE,  0  **    Upward short wave at top    (W m**-2)
+OCAS  1  111,  LTYPE,  0  **    Short wave absorbed at ground    (W m**-2)
+TGSC  1  191,  LTYPE,  0  **    Ground/surface cover temperature    (K)
+UNKNOWN  6  229,  LTYPE,  2  **    unknown    (unknown)
+DVSH  1  167,  LTYPE,  10  **    Divergence of specific humidity    (s**-1)
+UNKNOWN  6  10,  LTYPE,  0  **    unknown    (unknown)
+CAPE  1  140,  LTYPE,  0  **    Convective avail. pot.energy    (m**2 s**-12)
+CINE  1  141,  LTYPE,  0  **    Convective inhib. energy    (m**2 s**-12)
+FDLT  1  154,  LTYPE,  0  **    Flight levels temperature    (K)
+HMFC  1  168,  LTYPE,  50  **    Horiz. moisture flux conv.    (s**-1)
+VMFL  1  169,  LTYPE,  1
